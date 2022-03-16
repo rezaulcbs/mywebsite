@@ -1,0 +1,45 @@
+.my-name {
+    font-weight: 800;
+    font-size: 24px;
+    color: $seconderyColor !important;
+}
+.nav-single-item {
+    color: $darkColor !important;
+    font-weight: bold;
+    font-size: 18px;
+    padding-right: 16px !important;
+    padding-left: 16px !important;
+    color: $seconderyColor !important;
+    &:hover {
+        color: $primaryColor !important;
+    }
+}
+.nav-single-item-btn {
+    background: $primaryColor;
+    font-size: 12px;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    color: $lightColor !important;
+    font-weight: bold;
+    border-radius: 4px;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    &:hover {
+        background: $seconderyColor !important;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .nav-single-item {
+        padding-left: 0 !important;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .menu-flex {
+        display: flex;
+        justify-content: flex-end;
+        flex-grow: 0;
+    }
+}
+
