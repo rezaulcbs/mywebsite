@@ -1,0 +1,337 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.my-name {
+  font-weight: 800;
+  font-size: 24px;
+  color: #21B6A8 !important;
+}
+
+.nav-single-item {
+  color: #000000 !important;
+  font-weight: bold;
+  font-size: 18px;
+  padding-right: 16px !important;
+  padding-left: 16px !important;
+  color: #21B6A8 !important;
+}
+.nav-single-item:hover {
+  color: #FF5412!important;
+}
+
+.nav-single-item-btn {
+  background: #FF5412;
+  font-size: 12px;
+  padding-right: 20px !important;
+  padding-left: 20px !important;
+  color: #ffffff !important;
+  font-weight: bold;
+  border-radius: 4px;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+.nav-single-item-btn:hover {
+  background: #21B6A8 !important;
+}
+
+@media screen and (max-width: 900px) {
+  .nav-single-item {
+    padding-left: 0 !important;
+  }
+}
+@media screen and (min-width: 900px) {
+  .menu-flex {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 0;
+  }
+}
+.hero {
+  background: #F9FCFE;
+  padding: 150px 0;
+}
+.hero .line-top {
+  color: #FF5412;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.hero h2 {
+  font-size: 48px;
+  color: #21B6A8;
+}
+.hero h1 {
+  font-size: 56px;
+  color: #21B6A8;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.hero .line-bottom {
+  width: 100%;
+  max-width: 500px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+.hero .links {
+  list-style-type: none;
+  padding: 0;
+}
+.hero .links li {
+  display: inline-block;
+}
+.hero .links li .btn-fill {
+  background: #FF5412;
+  color: #ffffff;
+  padding: 18px 45px;
+  border-radius: 4px;
+  font-weight: 500;
+  text-decoration: none;
+  border: 1px solid #FF5412;
+  transition: 0.3s;
+  margin-right: 20px;
+}
+.hero .links li .btn-fill:hover {
+  background: transparent;
+  color: #FF5412;
+}
+.hero .links li .btn-social {
+  background: transparent;
+  color: #FF5412;
+  padding: 18px 30px;
+  border-radius: 4px;
+  font-weight: 500;
+  text-decoration: none;
+  border: 1px solid #FF5412;
+  transition: 0.3s;
+}
+.hero .links li .btn-social:hover {
+  background: #FF5412;
+  color: #ffffff;
+}
+.hero img {
+  width: 100%;
+  max-width: 450px;
+}
+
+@media screen and (max-width: 992px) {
+  .hero img {
+    margin-top: 50px;
+  }
+  .hero .hire-btn-res {
+    display: block !important;
+  }
+  .hero .hire-btn-res .btn-fill {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+  .hero .btn-social {
+    margin-top: 20px;
+    display: block;
+  }
+}
+.about {
+  background-image: url("img/bg1.png");
+  background-repeat: no-repeat;
+  margin-bottom: 70px;
+}
+.about .main-title h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #21B6A8;
+  text-align: center;
+  margin: 60px 0 0;
+}
+.about .main-title .dash1 {
+  width: 130px;
+  height: 3px;
+  background: #21B6A8;
+  display: block;
+  margin: 5px auto;
+  position: relative;
+  left: 10px;
+}
+.about .main-title .dash2 {
+  width: 100px;
+  height: 3px;
+  background: #21B6A8;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  left: 24px;
+}
+.about img {
+  width: 100%;
+  max-width: 380px;
+  border: 15px solid #ffffff;
+  box-shadow: 100px 100px 0 0 #21B6A8;
+  transform: rotate(20deg);
+  margin-top: 50px;
+}
+.about .inner-title {
+  font-size: 50px;
+  font-weight: 700;
+  color: #21B6A8;
+  margin-top: 100px;
+}
+.about p {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 50px;
+}
+.about blockquote {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 50px;
+  border-left: 2px solid #FF5412;
+  padding: 30px 0px 30px 50px;
+}
+
+@media screen and (max-width: 992px) {
+  .about {
+    background-image: none;
+  }
+  .about img {
+    transform: rotate(0deg);
+    box-shadow: none;
+  }
+}
+.services {
+  margin-bottom: 150px;
+  background-image: url("img/bg2.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 50rem;
+}
+.services h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #21B6A8;
+  margin: 180px 0 70px;
+}
+.services .card {
+  text-align: center;
+}
+.services .card img {
+  width: 90px;
+  background: #fce7e6;
+  padding: 15px;
+  margin: 80px auto 10px auto;
+  border-radius: 50%;
+}
+.services .card h5 {
+  font-size: 24px;
+  font-weight: 700;
+  color: ##21B6A8;
+}
+.services .card p {
+  padding: 0 15px;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 992px) {
+  .services .card {
+    margin-bottom: 20px;
+  }
+}
+.portfolio {
+  background: #f4f9ff;
+  padding: 55px 0 65px 0;
+}
+.portfolio .main-title h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #21B6A8;
+  text-align: center;
+  margin: 60px 0 0;
+}
+.portfolio .main-title .dash1 {
+  width: 199px;
+  height: 3px;
+  background: #21B6A8;
+  display: block;
+  margin: 5px auto;
+  position: relative;
+  left: 10px;
+}
+.portfolio .main-title .dash2 {
+  width: 170px;
+  height: 3px;
+  background:#21B6A8;
+  display: block;
+  margin: 0 auto 50px;
+  position: relative;
+  left: 24px;
+}
+.portfolio img {
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.contact {
+  margin-bottom: 100px;
+}
+.contact h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #21B6A8;
+  margin: 100px 0 20px;
+}
+.contact p {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 600px;
+}
+.contact iframe {
+  height: 300px;
+  border-radius: 4px;
+  box-shadow: 0 0 5px #999999;
+  width: 100%;
+  max-width: 600px;
+}
+.contact form {
+  margin-top: 100px;
+}
+.contact form input, .contact form textarea {
+  width: 100%;
+  padding: 14px 20px;
+  border: none;
+  box-shadow: 0 0 5px #999999;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  background: #f4f9ff;
+  resize: none;
+}
+.contact form button {
+  width: 100%;
+  padding: 18px 20px;
+  border: none;
+  box-shadow: 0 0 5px #999999;
+  border-radius: 4px;
+  background: #FF5412;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.contact form button:hover {
+  background: #21B6A8;
+}
+
+footer {
+  background: #21B6A8;
+}
+footer p {
+  color: #ffffff;
+  padding: 18px 0;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
